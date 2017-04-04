@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "FlowDock Chat Sorter Plugin",
+  "description": "This extension will sort chats by name ",
+  "version": "1.2.2",
+  "background": {
+    "scripts": [
+      "plugin.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Flowdock chat sorter",
+    "default_icon": "asc.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
